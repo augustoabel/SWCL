@@ -1,0 +1,19 @@
+.container { 
+    width: 100vw;
+    height: 100vh;
+    background: #353535;
+    background-image: url("../login/lavoura.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+
+.box {
+    border-radius: 5%;
+    width: 500px;
+    height: 550px;
+    background-color:rgb(255, 255, 255);
+    filter: alpha(opacity=50); opacity:1;
+    }

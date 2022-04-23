@@ -1,0 +1,56 @@
+.container { 
+    width: 100vw;
+    height: 100vh;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url("lavoura.jpg");
+    background-size: cover; 
+}
+
+.box {
+    border-radius: 5%;
+    width: 500px;
+    height: 500px;
+    
+    background-color:rgb(255, 255, 255);
+    }
+
+.mt-2 {
+    margin-top: 20px;
+}
+.mr-1 {
+    margin-right: 10px;
+}
+
+.m-auto {
+    margin: 0px;
+    padding: 0px;
+}
+
+.div1 {
+    height: 200px;
+    width:1000px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: -250px;
+    left: 120px;
+    transform: rotate(-40deg);
+}
+
+.div2 {
+    height: 400px;
+    width: 1500px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 700px  ;
+    left: 1020px;
+    transform: rotate(-40deg);
+}
+
+body {
+    margin: 0px;
+    background-image: linear-gradient(#ffffff, #ffffff, rgb(255, 255, 255));
+}
